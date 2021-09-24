@@ -16,6 +16,7 @@
 
 //alert("great");
 //solutions
+
 // No 1.Select the section with an id of container without using querySelector,
 
 const user = document.getElementById("container");
@@ -52,24 +53,29 @@ console.log(user)
 // console.log(user)
 
 //  //No 8. Create a new li element.
- let valB = document.createElement("li");
- console.log(valB)
+//  let valB = document.createElement("li");
+//  console.log(valB)
 
  
 
-//  //NO 9. Give the li the text "four".
-  valB.innerHTML ="four"
+// //  //NO 9. Give the li the text "four".
+//   valB.innerHTML ="four"
 
 
- // 10. Append the li to the ul element.
- let forma = document.querySelector("ul")
- forma.appendChild(valB)
+//  // 10. Append the li to the ul element.
+//  let forma = document.querySelector("ul")
+//  forma.appendChild(valB)
 
- // 11. Loop over all of the li's inside the ol tag and give them a background colour of "green".
- let valm = document.getElementsByTagName("ol")
- for(let i=0;i<valm.length;i++){
-   //console.log(valm[i])
-   valm[i].style.backgroundColor="green"
- }
+//  // 11. Loop over all of the li's inside the ol tag and give them a background colour of "green".
+//  let valm = document.getElementsByTagName("ol")
+//  for(let i=0;i<valm.length;i++){
+//    //console.log(valm[i])
+//    valm[i].style.backgroundColor="green"
+//  }
 
 // 12. Remove the div a class of footer.
+let bod = document.querySelector("body");
+console.log(bod)
+
+let foot = document.querySelector(".footer");
+foot.remove('footer')
